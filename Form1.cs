@@ -31,12 +31,7 @@ Random randGen = new Random();
         int Number4;
         int Number5;
         int Number6;
-
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             randomNumberHolder1 = randGen.Next(0, 50);
